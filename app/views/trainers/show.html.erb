@@ -1,0 +1,9 @@
+<h1> <%= @trainer.name =%> </h1>
+<img src=<%= @trainer.image =%> >
+
+<p>My Pokemon :</p>
+<ul>
+    <% @trainer.pokemons.each do |pokemon| %>
+        <li><%= link_to pokemon.name, pokemon %></li>
+    <% end %>
+</ul>
