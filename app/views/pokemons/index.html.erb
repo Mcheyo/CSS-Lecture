@@ -1,6 +1,9 @@
 <h1> Pokedex </h1>
-
+<div class="image_gallery">
 <% @pokemons.each do |pokemon| %>
+  <div class="ui card">
   <p><%=  pokemon.name =%> </p>
-  <img src=<%= pokemon.image =%> 
+  <img class ="image"src=<%= pokemon.image =%> 
+  </div>
   <% end %>
+  </div>

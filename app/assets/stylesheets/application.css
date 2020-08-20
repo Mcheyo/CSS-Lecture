@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+.pokemon{
+    color: magenta;
+}
+.trainer{ 
+    color: midnightblue
+}
+body{ 
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.home{ 
+    margin: 50px; 
+    padding: 20px;
+    border: 1px solid lightsalmon;
+    text-align: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png");
+    background-size: contain;
+}
+
+.image_gallery{
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fill,minimax(200px, 1fr));
+grid-gap: 20px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+
+}
+
+.form_spacing{
+margin: 20px;
+}
